@@ -1,0 +1,50 @@
+header {
+    width: 100%;
+    height: 80px;
+
+    background-color: #5275ff;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+
+.dropdown-nav {
+    background: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+button {
+    font-size: 16px;
+    font-weight: 300;
+    background-color: white;
+    padding: 24px 12px;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: black;
+    color: white;
+}
+
+.buttons-nav {
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+    align-items: center;
+}
