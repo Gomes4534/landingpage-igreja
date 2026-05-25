@@ -1,3 +1,4 @@
 # landingpage-igreja
-Projeto faculdade - criei uma landing page da igreja Reino Unido de Cristo com meu amigo Dev Gabriel
-projeto feito nas disciplinas de Web Standard e Projeto Integrador
+Landingpage - Reino Unido de Cristo
+Projeto feito por universitários onde nós criamos uma landing page do Ministério Reino Unido de Cristo
+
