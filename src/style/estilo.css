@@ -10,6 +10,11 @@ header {
     padding: 0 64px;
 }
 
+header>img{
+    width: 196px;
+    height: 58px;
+}
+
 nav {
     display: flex;
     justify-content: center;
@@ -57,6 +62,8 @@ main {
     justify-content: center;
     align-items: center;
     background-image: url(../assets/Image-church.jpeg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
     text-align: center;
 }
 
@@ -101,20 +108,28 @@ aside >div >button {
 
 h1 {
     font-family: "Montserrat", sans-serif;
-    font-size: 70px;
+    font-size: 48px;
     font-weight: 600;
-    color: #252525;
+    color: #ffffff;
     max-width: 1200px;
 }
 
 .aside-content p {
     margin: 20px auto;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 25px;
-    color: #252525;
-    max-width: 602px;
-    font-weight: 500;
+    color: #ffffff;
+    width: 692px;
+    height: 255px;
+    font-family: "Roboto", sans-serif;
 }
+
+
+
+
+
+
+
 
 section {
     background-color: #252525;
@@ -124,11 +139,57 @@ section {
     height: 850px;
 
     display: flex; 
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-}
 
+     padding: 112px 64px;
+
+    }
+    
+    .section-content {
+        display: flex;
+        flex-direction: column;
+        gap: 118px;
+    }
+
+
+    
 .section-content h1{
     color: #EBECEC;
+    font-size: 40px;
+    width: 460px;
+    height: 102px;
 }
+
+.section-content p {
+    margin: 20px auto;
+    font-size: 30px;
+    line-height: 25px;
+    color: #EBECEC;
+    width: 441px;
+    height: 300px;
+}
+
+
+
+
+
+.eventos-section {
+    background-color: #EBECEC;
+    color: #252525;
+
+
+    display: flex; 
+    justify-content: start;
+    align-items: center;
+
+     padding: 112px 64px;
+
+    }
+    
+    .eventos-section-content {
+        display: flex;
+        flex-direction: column;
+        gap: 118px;
+    }
 
