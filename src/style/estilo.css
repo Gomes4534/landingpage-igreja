@@ -48,13 +48,22 @@ button {
     color: #EBECEC;
 }
 
+.btn-primary:hover {
+    background-color: #0C1E66;
+    cursor: pointer;
+}
+
+.btn-button:hover {
+    background-color: #CFCFCF;
+    cursor: pointer;
+}
+
 .buttons-nav {
     display: flex;
     gap: 28px;
     justify-content: center;
     align-items: center;
 }
-
 
 /* Sessão "nav" */
 
@@ -104,10 +113,20 @@ aside > div > button {
     color: rgb(0, 0, 0);
 }
 
+.btn-primeiro:hover {
+    background-color: #CFCFCF;
+    cursor: pointer;
+}
+
 .btn-segundo {
     background-color: transparent;
     color: #5275FF;
     border: 1px solid #5275FF;
+}
+
+.btn-segundo:hover {
+    background-color: #3452CC;
+    color: white;
 }
 
 h1 {
@@ -145,9 +164,6 @@ section {
     padding: 112px 64px;
 }
 
-
-
-
 .section-content > h1 {
     color: #EBECEC;
     font-size: 40px;
@@ -179,10 +195,6 @@ section {
     height: 100%;
     object-fit: cover;
 }
-
-
-
-
 
 
 
@@ -225,12 +237,6 @@ section {
     color: #5275FF;
     cursor: pointer;
 }
-
-
-
-
-
-
 
 .eventos-grid {
     width: 100%;
