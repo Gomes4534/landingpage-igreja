@@ -10,7 +10,7 @@ header {
     padding: 0 64px;
 }
 
-header > img {
+header>img {
     width: 196px;
     height: 58px;
 }
@@ -77,9 +77,12 @@ main {
     background-image: url(../assets/images/image6.jpeg);
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
-    background-size: cover;          /* ← redimensiona */
-    background-position: center;     /* ← centraliza */
-    background-repeat: no-repeat;    /* ← evita repetição */
+    background-size: cover;
+    /* ← redimensiona */
+    background-position: center;
+    /* ← centraliza */
+    background-repeat: no-repeat;
+    /* ← evita repetição */
     text-align: center;
 }
 
@@ -103,7 +106,7 @@ aside {
     gap: 16px;
 }
 
-aside > div > button {
+aside>div>button {
     padding: 12px 24px;
     border: 1px solid #EBECEC;
     font-size: 16px;
@@ -168,14 +171,14 @@ section {
     padding: 112px 64px;
 }
 
-.section-content > h1 {
+.section-content>h1 {
     color: #EBECEC;
     font-size: 40px;
     width: 460px;
     height: auto;
 }
 
-.section-content > p {
+.section-content>p {
     padding-top: 118px;
     padding-bottom: 106px;
     font-size: 30px;
@@ -188,10 +191,13 @@ section {
 .section-actions {
     width: 645px;
     height: 647px;
-    flex-shrink: 0; /* impede que encolha */
+    flex-shrink: 0;
+    /* impede que encolha */
     border-radius: 8px;
-    background-color: #aaa; /* placeholder até ter a imagem */
-    overflow: hidden; /* garante que a imagem respeite o border-radius */
+    background-color: #aaa;
+    /* placeholder até ter a imagem */
+    overflow: hidden;
+    /* garante que a imagem respeite o border-radius */
 }
 
 .section-actions img {
@@ -210,7 +216,7 @@ section {
     align-items: center;
 }
 
-.eventos-section > h2 {
+.eventos-section>h2 {
     font-family: "Montserrat", sans-serif;
     font-size: 32px;
     font-weight: 700;
@@ -257,7 +263,7 @@ section {
     gap: 12px;
 }
 
-.evento-item > p {
+.evento-item>p {
     padding-top: 131px;
     padding-bottom: 37px;
     font-size: 14px;
@@ -266,12 +272,12 @@ section {
     font-family: "Roboto", sans-serif;
 }
 
-.evento-item > img {
+.evento-item>img {
     width: 100%;
-    aspect-ratio: 3 / 4; 
+    aspect-ratio: 3 / 4;
     object-fit: cover;
     border-radius: 4px;
-    background-color: #aaa; 
+    background-color: #aaa;
 }
 
 
@@ -282,16 +288,24 @@ article {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px; /* espaço entre imagem e texto */
+    gap: 139px;
+    margin-top: 80px;
 }
 
-article > p {
+.sobre-lugar {
+    width: 450px;
+    height: 450px;
+    flex-shrink: 0;
+    background-color: #000;
+}
+
+article>p {
     width: 564px;
     height: 405px;
 
     display: flex;
     align-items: center;
-    justify-content: end;
-    font-size: 40px;
-    font-weight: 300;
+    justify-content: start;
+
+    font-size: 30px;
 }
