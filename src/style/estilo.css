@@ -150,6 +150,7 @@ aside > div > button {
 .btn-segundo:hover {
     background-color: #3452CC;
     color: #ffffff;
+    cursor: pointer;
 }
 
 
@@ -210,6 +211,12 @@ section {
     cursor: pointer;
 }
 
+.btn-saiba:hover {
+    background-color: #5275FF;
+    color:#ffffff;
+    cursor: pointer;
+}
+
 .btn-outros {
     background: none;
     border: none;
@@ -217,6 +224,11 @@ section {
     font-size: 20px;
     color: #5275FF;
     cursor: pointer;
+}
+
+.btn-outros:hover {
+color: #ffffff;
+cursor: pointer;
 }
 
 
