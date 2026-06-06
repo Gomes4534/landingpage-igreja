@@ -142,9 +142,9 @@ aside > div > button {
 }
 
 .btn-segundo {
-    background-color: transparent;
-    color: #5275FF;
-    border: 1px solid #5275FF;
+    background-color: #5275FF;
+    color: #ffffff;
+    border: none;
 }
 
 .btn-segundo:hover {
