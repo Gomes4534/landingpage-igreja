@@ -7,6 +7,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
  
 header nav {
@@ -20,8 +21,27 @@ header nav img {
     width: auto;
 }
  
+.btn-voltar {
+    position: absolute;
+    left: 64px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.btn-voltar:hover {
+    color: #000000;
+}
+
  
 /* ========== MAIN ========== */
+
 main {
     width: 100%;
     display: flex;
@@ -29,17 +49,48 @@ main {
     align-items: center;
     padding: 80px 64px;
     gap: 40px;
-    background-color: #ffffff;
+    background-color: #252525; /* era #ffffff */
 }
- 
+
+main > h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
 main > p {
     width: 644px;
     height: auto;
     font-family: "Roboto", sans-serif;
     font-size: 25px;
     font-weight: 400;
-    color: #252525;
+    color: #EBECEC;
     text-align: center;
+}
+
+main > img {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    background-color: #d9d9d9;
+}
+
+.instrucao {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #EBECEC;
+}
+
+.versiculo {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    color: #5275FF;
+    text-align: center;
+    width: 644px;
 }
  
 main > img {

@@ -173,8 +173,8 @@ section {
 }
 
 .section-content > p {
-    padding-top: 118px;
-    padding-bottom: 106px;
+     padding-top: 40px;
+    padding-bottom: 40px;
     font-size: 30px;
     color: #EBECEC;
     width: 441px;
@@ -260,9 +260,10 @@ cursor: pointer;
 }
 
 .evento-item > p {
-    padding-top: 131px;
+    padding-top: 50px;
     padding-bottom: 37px;
-    font-size: 14px;
+    font-size: 20px;
+    font-weight: 500;
     text-align: center;
     color: #252525;
     font-family: "Roboto", sans-serif;
@@ -285,7 +286,6 @@ article {
     justify-content: center;
     align-items: center;
     gap: 139px;
-    margin-top: 80px;
 }
 
 .sobre-lugar {
