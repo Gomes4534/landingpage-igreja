@@ -171,6 +171,7 @@ section {
     flex-direction: column;
     align-items: center;
     padding: 0px 64px;
+    padding-top: 80px;
     gap: 40px;
      height: auto;
     overflow: hidden;
@@ -302,4 +303,252 @@ footer {
 .footer-links a:hover,
 .footer-social a:hover {
     color: #5275FF;
+}
+
+
+@media (max-width: 1024px) {
+ 
+    /* Header */
+    header {
+        padding: 0 32px;
+        height: 90px;
+    }
+ 
+    header > img {
+        width: 200px;
+        height: auto;
+    }
+ 
+    nav {
+        gap: 20px;
+    }
+ 
+    nav a,
+    .dropdown-nav a {
+        font-size: 18px;
+    }
+ 
+    button {
+        width: 120px;
+        height: 56px;
+        font-size: 18px;
+    }
+ 
+    /* Hero */
+    h1 {
+        font-size: 36px;
+        padding: 0 32px;
+    }
+ 
+    .aside-content p {
+        font-size: 22px;
+        width: 90%;
+        height: auto;
+    }
+ 
+    /* Section história */
+    section {
+        height: auto;
+        flex-direction: column;
+        padding: 64px 32px;
+        gap: 48px;
+        text-align: center;
+    }
+ 
+    .section-content > h2 {
+        font-size: 32px;
+        width: 100%;
+    }
+ 
+    .section-content > p {
+        font-size: 22px;
+        width: 100%;
+    }
+ 
+    .section-actions {
+        justify-content: center;
+    }
+ 
+    .section-actions video {
+        width: 100%;
+        height: auto;
+    }
+ 
+    /* Eventos */
+    .eventos-section {
+        padding: 48px 32px;
+    }
+ 
+    .eventos-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+    }
+ 
+    /* Article */
+    article {
+        height: auto;
+        flex-direction: column;
+        gap: 48px;
+        padding: 64px 32px;
+    }
+ 
+    .sobre-lugar {
+        width: 100%;
+        max-width: 420px;
+    }
+ 
+    article > p {
+        width: 100%;
+        height: auto;
+        font-size: 22px;
+        text-align: center;
+    }
+ 
+    /* Footer */
+    footer {
+        flex-wrap: wrap;
+        padding: 64px 32px;
+        gap: 48px;
+    }
+ 
+    .footer-links {
+        margin-left: 0;
+    }
+ 
+    .footer-address {
+        width: 100%;
+        gap: 32px;
+    }
+}
+ 
+ 
+
+@media (max-width: 640px) {
+ 
+    /* Header */
+    header {
+        padding: 0 20px;
+        height: 72px;
+    }
+ 
+    header > img {
+        width: 140px;
+        height: auto;
+    }
+ 
+    nav {
+        display: none;
+    }
+ 
+    .buttons-nav {
+        gap: 0;
+    }
+ 
+    button {
+        width: 100px;
+        height: 46px;
+        font-size: 15px;
+        padding: 8px 14px;
+        border-radius: 14px;
+    }
+ 
+    /* Hero */
+    main {
+        height: 100svh;
+        padding: 0 20px;
+    }
+ 
+    h1 {
+        font-size: 26px;
+        padding: 0;
+    }
+ 
+    .aside-content p {
+        font-size: 18px;
+        width: 100%;
+        height: auto;
+    }
+ 
+    /* Section história */
+    section {
+        padding: 48px 20px;
+        gap: 32px;
+    }
+ 
+    .section-content > h2 {
+        font-size: 26px;
+    }
+ 
+    .section-content > p {
+        font-size: 18px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+ 
+    .section-actions video {
+        border-radius: 8px;
+    }
+ 
+    /* Eventos */
+    .eventos-section {
+        padding: 48px 20px;
+        gap: 24px;
+    }
+ 
+    .eventos-section > h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+ 
+    .eventos-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+ 
+    .evento-item > p {
+        font-size: 17px;
+        padding-top: 32px;
+        padding-bottom: 20px;
+    }
+ 
+    /* Article */
+    article {
+        padding: 48px 20px;
+        gap: 32px;
+    }
+ 
+    .sobre-lugar {
+        width: 100%;
+        max-width: 100%;
+    }
+ 
+    article > p {
+        font-size: 18px;
+    }
+ 
+    /* Footer */
+    footer {
+        padding: 48px 20px;
+        gap: 40px;
+        flex-direction: column;
+    }
+ 
+    .footer-brand img {
+        width: 160px;
+        height: auto;
+    }
+ 
+    .footer-address {
+        width: 100%;
+        gap: 24px;
+    }
+ 
+    .footer-address p {
+        font-size: 18px;
+    }
+ 
+    .footer-links a,
+    .footer-social a {
+        font-size: 18px;
+    }
 }
