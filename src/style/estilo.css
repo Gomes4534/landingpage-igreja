@@ -1,4 +1,4 @@
-/* ========== RESET / BASE ========== */
+/* RESET / BASE  */
 a {
     font-size: 25px;
     font-weight: 300;
@@ -24,7 +24,7 @@ h1 {
 }
 
 
-/* ========== HEADER ========== */
+/* HEADER  */
 header {
     width: 100%;
     height: 105px;
@@ -78,7 +78,7 @@ nav {
 
 
 
-/* ========== MAIN / HERO ========== */
+/*  MAIN / HERO  */
 main {
     width: 100%;
     height: 100vh;
@@ -120,7 +120,7 @@ aside {
 
 
 
-/* ========== SECTION - HISTÓRIA ========== */
+/*  SECTION - HISTÓRIA  */
 section {
     width: 100%;
     height: 850px;
@@ -162,7 +162,7 @@ section {
 
 
 
-/* ========== SECTION - EVENTOS ========== */
+/*  SECTION - EVENTOS  */
 .eventos-section {
     width: 100%;
     height: auto;
@@ -216,7 +216,7 @@ section {
 }
 
 
-/* ========== ARTICLE - SOBRE ========== */
+/*  ARTICLE - SOBRE  */
 article {
     width: 100%;
     height: 704px;
@@ -247,7 +247,7 @@ article > p {
 }
 
 
-/* ========== FOOTER ========== */
+/*  FOOTER  */
 footer {
     width: 100%;
     background-color: #252525;
@@ -304,6 +304,11 @@ footer {
 .footer-social a:hover {
     color: #5275FF;
 }
+
+
+
+
+
 
 
 @media (max-width: 1024px) {
@@ -422,6 +427,9 @@ footer {
 }
  
  
+
+
+
 
 @media (max-width: 640px) {
  
