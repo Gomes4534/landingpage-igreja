@@ -1,23 +1,27 @@
 /* RESET / BASE  */
 a {
-    font-size: 25px;
-    font-weight: 300;
+    font-size: 30px;
+    font-weight: 350;
     color: #EBECEC;
 }
 
 button {
-    width: 150px;
-    height: 70px;
-    font-size: 25px;
-    font-weight: 300;
+    width: 170px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: 350;
     background-color: #EBECEC;
     padding: 12px 24px;
     border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
     font-family: "Playfair Display", serif;
-    font-size: 48px;
+    font-size: 58px;
     font-weight: 500;
     color: #ffffff;
     max-width: 1200px;
@@ -27,7 +31,7 @@ h1 {
 /* HEADER  */
 header {
     width: 100%;
-    height: 105px;
+    height: 120px;
     background-color: #000000;
     display: flex;
     justify-content: space-between;
@@ -40,8 +44,8 @@ header {
 }
 
 header > img {
-    width: 300px;
-    height: 88px;
+    width: 360px;
+    height: 100px;
 }
 
 nav {
@@ -109,9 +113,9 @@ aside {
 
 .aside-content p {
     margin: 20px auto;
-    font-size: 30px;
+    font-size: 34px;
     font-family: "Roboto", sans-serif;
-    font-weight: 300;
+    font-weight: 350;
     color: #ffffff;
     width: 692px;
     height: 255px;
@@ -134,14 +138,14 @@ section {
 
 .section-content > h2 {
     color: #EBECEC;
-    font-size: 40px;
+    font-size: 48px;
     width: 460px;
 }
 
 .section-content > p {
      padding-top: 40px;
     padding-bottom: 40px;
-    font-size: 30px;
+    font-size: 34px;
     color: #EBECEC;
     width: 441px;
 }
@@ -179,7 +183,7 @@ section {
 
 .eventos-section > h2 {
     font-family: "Montserrat", sans-serif;
-    font-size: 32px;
+    font-size: 48px;
     font-weight: 700;
     color: #252525;
 }
@@ -200,8 +204,8 @@ section {
 .evento-item > p {
     padding-top: 50px;
     padding-bottom: 37px;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 34px;
+    font-weight: 350;
     text-align: center;
     color: #252525;
     font-family: "Roboto", sans-serif;
@@ -243,7 +247,8 @@ article > p {
     display: flex;
     align-items: center;
     justify-content: start;
-    font-size: 30px;
+    font-size: 34px;
+    font-weight: 350px;
 }
 
 
@@ -254,7 +259,7 @@ footer {
     padding: 112px 70px;
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .footer-col {
@@ -263,8 +268,8 @@ footer {
 }
 
 .footer-brand img {
-    width: 250px;
-    height: 235px;
+    width: 300px;
+    height: 300px;
 }
 
 .footer-address {
@@ -275,7 +280,7 @@ footer {
 .footer-address p {
     margin: 0;
     font-family: "Roboto", sans-serif;
-    font-size: 25px;
+    font-size: 34px;
     font-weight: 300;
     color: #EBECEC;
     line-height: 1.4;
